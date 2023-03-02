@@ -1,0 +1,74 @@
+[
+    {
+        "id": "1",
+        "name": "Pai Rico, Pai Pobre",
+        "text": "Primeiro best-seller de Robert Kiyosaki e Sharon Lechter. Ele advoga a busca pela independência financeira através de investimento, imóveis, ter seu próprio negócio e o uso de táticas financeiras.",
+        "image": "/static/images/livros/pairicopaipobre.png"
+    },
+    {
+        "id": "2",
+        "name": "A Startup Enxuta",
+        "text": "Como os empreendedores utilizam a inovação contínua para criar empresas extremamente bem-sucedidas.",
+        "image": "/static/images/livros/startupenxuta.png"
+    },
+    {
+        "id": "3",
+        "name": "A Revolução dos Bixos",
+        "text": "George Orwell narra a jornada de um grupo de animais que decide se rebelar contra o dono da fazenda, o Sr. Jones, e com a exploração dos humanos.",
+        "image": "/static/images/livros/arevoluçãodosbixos.png"
+    },
+    {
+        "id": "4",
+        "name": "Código Limpo",
+        "text": "Código limpo está divido em partes. Na primeira há capítulos que descrevem os princípios e práticas para criar um código limpo. A segunda parte consiste em diversos casos de estudo de complexidade cada vez maior.",
+        "image": "/static/images/livros/codigolimpo.png"
+    },
+    {
+        "id": "5",
+        "name": "Como Fazer Amigos e Influenciar Pessoas",
+        "text": "Como fazer amigos e influenciar pessoas é um livro da autoria do estadunidense Dale Carnegie, destinado a desenvolver estratégias comunicativas e de ajuda entre pessoas.",
+        "image": "/static/images/livros/comofazeramigos.png"
+    },
+    {
+        "id": "6",
+        "name": "Do Mil ao Milhão",
+        "text": "Thiago Nigro, criador da plataforma O Primo Rico, ensina aos leitores os três pilares para atingir a independência financeira: gastar bem, investir melhor e ganhar mais.",
+        "image": "/static/images/livros/domilaomilhao.png"
+    },
+    {
+        "id": "7",
+        "name": "1984",
+        "text": "O romance descreve a existência sufocante dos indivíduos que vivem num sistema de opressão e autoritarismo. Para poder controlar os cidadãos, o governo precisa padronizar as suas vidas e os seus comportamentos.",
+        "image": "/static/images/livros/georgeorwell1984.png"
+    },
+    {
+        "id": "8",
+        "name": "+ Esperto que o Diabo",
+        "text": "Mais esperto que o diabo é um livro de Napoleon Hill. Foi escrito originalmente em 1938, mas lançado apenas em 2011, com comentários de Sharon Lechter. Vendeu mais de 100 milhões de cópias em todo o mundo.",
+        "image": "/static/images/livros/maisespertoqueodiabo.png"
+    },
+    {
+        "id": "9",
+        "name": "Meditações - Marco Aurélio",
+        "text": "Meditações é o título de uma série de escritos pessoais do imperador romano Marco Aurélio onde ele apresentou suas ideias sobre a filosofia estoica.",
+        "image": "/static/images/livros/meditações.png"
+    },
+    {
+        "id": "10",
+        "name": "O Príncipe",
+        "text": "O Príncipe é um livro escrito por Nicolau Maquiavel em 1513, cuja primeira edição foi publicada postumamente, em 1532.",
+        "image": "/static/images/livros/oprincipe.png"
+    },
+    {
+        "id": "11",
+        "name": "Os Segredos da Mente Milhonaria",
+        "text": "Mude seus conceitos sobre o dinheiro e adotando os hábitos das pessoas bem-sucedidas. T. Harv Eker desmistifica o motivo pelo qual algumas pessoas estão destinadas à riqueza e outras a uma vida de dureza.",
+        "image": "/static/images/livros/ossegredosdamente.png"
+    },
+    {
+        "id": "12",
+        "name": "Quem Pensa Enriquece",
+        "text": "Pense e Enriqueça, também traduzido como Quem pensa enriquece, foi escrito em 1937 por Napoleon Hill e vendido como um livro de realização pessoal e auto-aperfeiçoamento.",
+        "image": "/static/images/livros/quempensaenriquece.png"
+    }
+]

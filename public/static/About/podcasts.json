@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "name": "PrimoCast",
+        "text": "O PrimoCast é o podcast oficial do Primo Rico. Toda semana, um novo episódio para falar sobre finanças investimentos, negócios e empreendedorismo.",
+        "image": "/static/images/podcasts/primocast.png"
+    },
+    {
+        "id": "2",
+        "name": "Os Sócios PodCast",
+        "text": "Os Sócios Podcast é um podcast oficial do Grupo Primo. Toda semana, pelo menos um novo episódio para falar empreendedorismo, política, finanças e negócios com muita descontração.",
+        "image": "/static/images/podcasts/ossocios.png"
+    },
+    {
+        "id": "3",
+        "name": "O Conselho | Flávio Augusto",
+        "text": "Fundador da Wise Up, presidente da Wiser Educação, escritor, autor do Best-Seller 'Ponto de Inflexão' e um dos empreendedores brasileiros mais influentes da atualidade.",
+        "image": "/static/images/podcasts/oconcelho.png"
+    },
+    {
+        "id": "4",
+        "name": "Jota Jota PodCast",
+        "text": "PodCast do trinador de alta performance Joel Jota.",
+        "image": "/static/images/podcasts/jjpodcast.png"
+    },
+    {
+        "id": "5",
+        "name": "Inteligência Ltda",
+        "text": "O podcast Inteligência Ltda. é um bate-papo livre de preconceitos, um debate de ideias e teorias, achismos em geral e maluquices com alto teor de verdade que tornarão Rogério Vilela e você, mais inteligentes.",
+        "image": "/static/images/podcasts/inteligencialtda.png"
+    },
+    {
+        "id": "6",
+        "name": "Flow Podcast",
+        "text": "Flow Podcast é um dos maiores PodCasts do Brasil. Recebe todos os tipos de convidados para todos os tipos de conversas.",
+        "image": "/static/images/podcasts/flow.png"
+    },
+    {
+        "id": "7",
+        "name": "Brasil Paralelo",
+        "text": "A Brasil Paralelo acredita que o Brasil vai dar certo. E por meio de nossas produções trabalhamos para fortalecer em nossa cultura os valores e tradições que ao longo da história conduziram a humanidade à paz e prosperidade.",
+        "image": "/static/images/podcasts/brasilparalelo.png"
+    }
+]

@@ -1,0 +1,211 @@
+/* ----- GERAL */
+.section_about {
+    height: 2000px;
+}
+
+/* ---- SOBRE MIM */
+.intro_about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    gap: 130px;
+    padding: 80px 0;
+}
+
+.intro_about div h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.intro_about p {
+    width: 500px;
+    padding-bottom: 20px;
+}
+
+.intro_about span {
+    color: #FA7A32;
+}
+
+.intro_about img {
+    width: 500px;
+    border-radius: 40px;
+}
+
+/* ----- SKILLS */
+.skill_about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    padding: 75px 0;
+    background-color: #181818;
+}
+
+/* TEXTOS */
+.skill_about h2 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.skill_about span {
+    color: #FA7A32;
+}
+
+/* LOGOS */
+.logos_about_container {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+.logo_about {
+    text-align: center;
+}
+
+.logo_about img {
+    width: 80px;
+}
+
+.about_4 img {
+    width: 95px;
+}
+
+.about_5 img {
+    width: 103px;
+}
+
+
+
+/* ------ SOFTSKILLS */
+.softskills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    margin-top: 130px;
+}
+
+.softskills h2 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.softskills span {
+    color: #FA7A32;
+}
+
+.softskills ul {
+    display: grid;
+    margin-top: 40px;
+    margin-left: 25px;
+    grid-template: auto auto / auto auto auto;
+    gap: 25px;
+    text-align: center;
+    list-style: none;
+}
+
+
+/* -------- INDICAÇÔES */
+/* GERAL */
+.indicacoes {
+    position: relative;
+    margin-top: 200px;
+    color: #fff;
+    background-color: #181818;
+    height: 1450px;
+    z-index: 1;
+}
+
+.title_indicacoes {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+.indicacoes h2 {
+    font-size: 50px;
+}
+
+.indicacoes p span {
+    color: #FA7A32;
+}
+
+.indicacoes h3 {
+    font-size: 30px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+/* CARROSSEL */
+.carousel {
+    background-color: #1f1f20;
+    padding: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel_itens {
+    display: flex;
+}
+
+.carousel .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 250px;
+    margin-right: 30px;
+    overflow: hidden;
+    border-radius: 21px;
+    flex: none;
+}
+
+.carousel .item .infos {
+    position: relative;
+    text-align: center;
+    top: -35px;
+    width: 200px;
+    padding: 10px 10px 105px 10px;
+    background-color: rgb(0, 0, 0, 50%);
+    cursor: default;
+    transition: .5s;
+}
+
+.carousel .item:hover .infos {
+    top: -170px;
+}
+
+.carousel .item .infos .name {
+    font-size: 12px;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.carousel .item .infos .text {
+    font-size: 11px;
+}
+
+.buttons {
+    position: relative;
+    bottom: 180px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.buttons button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons button:first-child img {
+    transform: rotate(180deg);
+}

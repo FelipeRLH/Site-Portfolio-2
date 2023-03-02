@@ -1,0 +1,89 @@
+.title_contact {
+    color: #fff;
+    background-color: #252525;
+    border: 1px solid rgb(255, 255, 255, 5%);
+    margin-top: 26px;
+    padding: 40px 200px;
+    font-size: 20px;
+}
+
+/* ---------  AREA DE CONTATO */
+.container_contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5vh;
+    padding: 0 230px;
+}
+
+
+/* NÚMERO E EMAIL */
+.num_email {
+    color: #fff;
+}
+
+.num_email div {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.icon_contact {
+    margin-right: 25px;
+    font-size: 35px;
+    color: #008cff;
+}
+
+
+/* CONTACT IMPUTS */
+
+.contact_inputs form {
+    display: flex;
+    flex-direction: column;
+}
+
+.textimput,
+.emailimput,
+textarea {
+    background-color: #1D1E22;
+    margin: 5px;
+    padding: 6px;
+    border: 1.5px solid rgb(255, 255, 255, 20%);
+    border-radius: 5px;
+    color: #fff;
+}
+
+textarea{
+    height: 175px;
+}
+
+.textimput,
+.emailimput {
+    width: 220px;
+}
+
+.title_contact_area {
+    color: #fff;
+    width: 119px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #353535;
+}
+
+.spantitle {
+    border-bottom: 2px solid #FA7A32;
+    width: 80px;
+}
+
+.contact_inputs .button {
+    background-color: #333333;
+    width: 110px;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #FA7A32;
+    border-radius: 30px;
+    margin-top: 4px;
+    cursor: pointer;
+}

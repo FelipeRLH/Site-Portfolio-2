@@ -1,0 +1,84 @@
+.container_projects {
+    height: 1100px;
+
+}
+
+.sidebar_Projects {
+    z-index: 1;
+}
+
+/* TÍTULO */
+.title_projects {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 60px 0;
+    color: #fff;
+}
+
+.title_projects h1 {
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+
+.title_projects p {
+    font-size: 14px;
+}
+
+
+
+/* CONTAINER PROJETOS */
+.projects {
+    display: grid;
+    grid-template: auto auto / auto auto auto;
+    gap: 50px;
+    justify-content: center;
+}
+
+/* PROJETOS */
+.project {
+    overflow: hidden;
+    width: 360px;
+    height: 190px;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.project:hover {
+    box-shadow: 5px 5px 10px 4px rgba(0, 0, 0, 0.3),
+        -5px -5px 10px 4px rgba(0, 0, 0, 0.3);
+    transform: scale(1.02);
+}
+
+/* INFOS */
+.projects .project .infos {
+    position: relative;
+    text-align: center;
+    top: -35px;
+    width: 360px;
+    padding: 7px 10px 105px 10px;
+    background-color: rgba(49, 49, 49, 0.7);
+    cursor: default;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.projects .project:hover .infos {
+    top: -115px;
+}
+
+.projects .project .infos .name {
+    font-size: 15px;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.projects .project .infos .text {
+    font-size: 14px;
+}
+
+.link_projects {
+    color: #fff;
+    text-decoration: none;
+}

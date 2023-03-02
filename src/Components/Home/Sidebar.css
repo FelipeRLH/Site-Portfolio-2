@@ -1,0 +1,132 @@
+/*  ----------GERAL */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 58px;
+    height: 470px;
+    margin-top: 3vh;
+    border-radius: 27px;
+    background-color: #242424;
+    overflow-x: hidden;
+    transition: .4s;
+}
+
+.sidebar{
+    position: sticky;
+    top: 76px;
+}
+
+.navigation:hover {
+    width: 200px;
+}
+
+/* -------- BALLS APPLE LOGO */
+.simb_apple {
+    position: relative;
+    display: flex;
+    gap: 4px;
+    margin-left: 10px;
+    bottom: 200px;
+}
+
+.ball_1,
+.ball_2,
+.ball_3 {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+.ball_1 {
+    background-color: #FF6252;
+}
+
+.ball_2 {
+    background-color: #FDAD15;
+}
+
+.ball_3 {
+    background-color: #2AC670;
+}
+
+/* -------MENU */
+
+.navigation ul {
+    position: absolute;
+    padding-left: 8px;
+    padding-top: 5px;
+}
+
+.navigation ul li {
+    list-style: none;
+    width: 100%;
+    height: 55px;
+}
+
+.navigation ul li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #919191;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.navigation ul li a {
+    width: 45px;
+    color: #fff;
+    transition: .4s;
+}
+
+.navigation ul li a:hover {
+    background-color: #FA7A32;
+}
+
+.navigation:hover a {
+    width: 160px;
+}
+
+.navigation ul li a .icon {
+    font-size: 1.5rem;
+}
+
+.navigation ul li a .title {
+    padding-left: 20px;
+    white-space: nowrap;
+}
+
+
+/* ------- FOOTER SIDE */
+
+.footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 0 0 27px 27px;
+    width: 200px;
+    height: 53px;
+    top: 208px;
+    right: 48px;
+    background-color: rgb(255, 255, 255, 5%);
+}
+
+.theme {
+    width: 35px;
+    cursor: pointer;
+}
+
+.theme:hover {
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+
+.div_theme_1 {
+    padding-left: 7px;
+    padding-right: 5px;
+}
