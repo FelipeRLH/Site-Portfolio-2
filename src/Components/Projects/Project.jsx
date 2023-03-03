@@ -5,7 +5,7 @@ function Project() {
     const [data, setData] = useState([])
 
     useEffect(() => {
-        fetch('static/json/canais.json')
+        fetch('static/json/projet.json')
             .then((response) => response.json())
             .then(setData)
     }, [])
