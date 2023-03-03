@@ -1,68 +1,68 @@
 [
-    {
-        "id": "1",
-        "name": "Bruno Perini - Você MAIS Rico",
-        "text": "Canal de vídeos de Bruno Perini - criador do site de educação financeira Você MAIS Rico e do curso Viver de Renda. Aprenda mais sobre dinheiro, finanças e investimentos com quem realmente entende do assunto.",
-        "image": "/static/images/canais/brunoperini_img.png"
-    },
-    {
-        "id": "2",
-        "name": "O primo Rico",
-        "text": "Thiago Nigro fala sobre finanças em diversas plataformas e formatos, como o Primocast – o maior podcast sobre finanças e negócios do Spotify.",
-        "image": "/static/images/canais/thiagonigro.png"
-    },
-    {
-        "id": "4",
-        "name": "Renato Cariani",
-        "text": "Renato Cariani é um Youtuber e fisiculturista brasileiro, dono de um dos maiores canais de esporte do Brasil ensina as pessoas sobre saúde, exercício e alimentação",
-        "image": "/static/images/canais/renatocariani.png"
-    },
-    {
-        "id": "5",
-        "name": "Joel Jota",
-        "text": "Sejam bem-vindos ao canal oficial do treinador de alta performance, escritor best seller e empresário, Joel Jota.",
-        "image": "/static/images/canais/joeljota.png"
-    },
-    {
-        "id": "6",
-        "name": "SuperLeituras",
-        "text": "O maior canal brasileiro de vídeos animados sobre as lições dos grandes pensadores da humanidade.",
-        "image": "/static/images/canais/superleituras.png"
-    },
-    {
-        "id": "7",
-        "name": "Paulo Muzy",
-        "text": "Você vê o que eu sou. O que eu sou é resultado daquilo que faço repetidamente. Excelência não é um modo de agir. É um hábito. ",
-        "image": "/static/images/canais/paulomuzy.png"
-    },
-    {
-        "id": "8",
-        "name": "Lucas Montano",
-        "text": "Canal de tecnologia e programação",
-        "image": "/static/images/canais/lucasmontano.png"
-    },
-    {
-        "id": "9",
-        "name": "Fatos Desconhecidos",
-        "text": "A Fatos Desconhecidos começou no ano de 2010, fruto de várias curiosidades e dúvidas. E nenhum nome poderia ter atendido tão bem todas as expectativas quanto Fatos Desconhecidos.",
-        "image": "/static/images/canais/fatosdesconhecidos.png"
-    },
-    {
-        "id": "10",
-        "name": "Eslen Delanogare",
-        "text": "Bem vindo ao canal oficial do Eslen Delanogare. Eslen é psicólogo, neurocientista e amante do esporte e aqui ele tenta mostrar como usar ferramentas baseadas em ciência para melhorar sua performance.",
-        "image": "/static/images/canais/eslen.png"
-    },
-    {
-        "id": "11",
-        "name": "Ciência Todo Dia",
-        "text": "Um canal totalmente voltado para assuntos que podem ser abordados no cotidiano, mantendo seu cérebro sempre ativo!",
-        "image": "/static/images/canais/cienciatododia.png"
-    },
-    {
-        "id": "12",
-        "name": "Jovens de Negócios",
-        "text": "Fala galera! Bem vindo ao canal Jovens de Negócios! Somos um canal que busca promover a educação sobre negócios, economia, finanças, investimentos e tudo 'o que o ensino não te ensina'.",
-        "image": "/static/images/canais/brenoperrucho.png"
-    }
+  {
+      "id": "1",
+      "name": "Bruno Perini - Você MAIS Rico",
+      "text": "Canal de vídeos de Bruno Perini - criador do site de educação financeira Você MAIS Rico e do curso Viver de Renda. Aprenda mais sobre dinheiro, finanças e investimentos com quem realmente entende do assunto.",
+      "image": "/static/images/canais/brunoperini_img.png"
+  },
+  {
+      "id": "2",
+      "name": "O primo Rico",
+      "text": "Thiago Nigro fala sobre finanças em diversas plataformas e formatos, como o Primocast – o maior podcast sobre finanças e negócios do Spotify.",
+      "image": "/static/images/canais/thiagonigro.png"
+  },
+  {
+      "id": "4",
+      "name": "Renato Cariani",
+      "text": "Renato Cariani é um Youtuber e fisiculturista brasileiro, dono de um dos maiores canais de esporte do Brasil ensina as pessoas sobre saúde, exercício e alimentação",
+      "image": "/static/images/canais/renatocariani.png"
+  },
+  {
+      "id": "5",
+      "name": "Joel Jota",
+      "text": "Sejam bem-vindos ao canal oficial do treinador de alta performance, escritor best seller e empresário, Joel Jota.",
+      "image": "/static/images/canais/joeljota.png"
+  },
+  {
+      "id": "6",
+      "name": "SuperLeituras",
+      "text": "O maior canal brasileiro de vídeos animados sobre as lições dos grandes pensadores da humanidade.",
+      "image": "/static/images/canais/superleituras.png"
+  },
+  {
+      "id": "7",
+      "name": "Paulo Muzy",
+      "text": "Você vê o que eu sou. O que eu sou é resultado daquilo que faço repetidamente. Excelência não é um modo de agir. É um hábito. ",
+      "image": "/static/images/canais/paulomuzy.png"
+  },
+  {
+      "id": "8",
+      "name": "Lucas Montano",
+      "text": "Canal de tecnologia e programação",
+      "image": "/static/images/canais/lucasmontano.png"
+  },
+  {
+      "id": "9",
+      "name": "Fatos Desconhecidos",
+      "text": "A Fatos Desconhecidos começou no ano de 2010, fruto de várias curiosidades e dúvidas. E nenhum nome poderia ter atendido tão bem todas as expectativas quanto Fatos Desconhecidos.",
+      "image": "/static/images/canais/fatosdesconhecidos.png"
+  },
+  {
+      "id": "10",
+      "name": "Eslen Delanogare",
+      "text": "Bem vindo ao canal oficial do Eslen Delanogare. Eslen é psicólogo, neurocientista e amante do esporte e aqui ele tenta mostrar como usar ferramentas baseadas em ciência para melhorar sua performance.",
+      "image": "/static/images/canais/eslen.png"
+  },
+  {
+      "id": "11",
+      "name": "Ciência Todo Dia",
+      "text": "Um canal totalmente voltado para assuntos que podem ser abordados no cotidiano, mantendo seu cérebro sempre ativo!",
+      "image": "/static/images/canais/cienciatododia.png"
+  },
+  {
+      "id": "12",
+      "name": "Jovens de Negócios",
+      "text": "Fala galera! Bem vindo ao canal Jovens de Negócios! Somos um canal que busca promover a educação sobre negócios, economia, finanças, investimentos e tudo 'o que o ensino não te ensina'.",
+      "image": "/static/images/canais/brenoperrucho.png"
+  }
 ]
