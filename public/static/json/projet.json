@@ -1,68 +1,86 @@
 [
     {
         "id": "1",
-        "name": "Bruno Perini - Você MAIS Rico",
-        "text": "Canal de vídeos de Bruno Perini - criador do site de educação financeira Você MAIS Rico e do curso Viver de Renda. Aprenda mais sobre dinheiro, finanças e investimentos com quem realmente entende do assunto.",
-        "image": "/static/images/canais/brunoperini_img.png"
+        "name": "Filmes-TMDB",
+        "text": "Este é um projeto de Catálogo de filmes do TMDB que fiz usando React.",
+        "image": "/static/images/projects/tmdbfilms.png",
+        "link": "https://github.com/FelipeRLH/Filmes-TMDB"
     },
     {
         "id": "2",
-        "name": "O primo Rico",
-        "text": "Thiago Nigro fala sobre finanças em diversas plataformas e formatos, como o Primocast – o maior podcast sobre finanças e negócios do Spotify.",
-        "image": "/static/images/canais/thiagonigro.png"
+        "name": "Costs",
+        "text": "Esta aplicação é um gerenciador de projetos para pessoas/empresa. Com ele podemos adicionar um projeto à ser realizado, cada projeto contém nome, orçamento e categoria.",
+        "image": "/static/images/projects/costs.png",
+        "link": "https://github.com/FelipeRLH/Gerenciador-de-projetos"
+    },
+    {
+        "id": "3",
+        "name": "Quiz Copa Do Mundo",
+        "text": "Este projeto é um quiz sobre a copa do mundo 2022 feito com React.",
+        "image": "/static/images/projects/quizcopa.png",
+        "link": "https://github.com/FelipeRLH/Quiz-Copa-2022"
     },
     {
         "id": "4",
-        "name": "Renato Cariani",
-        "text": "Renato Cariani é um Youtuber e fisiculturista brasileiro, dono de um dos maiores canais de esporte do Brasil ensina as pessoas sobre saúde, exercício e alimentação",
-        "image": "/static/images/canais/renatocariani.png"
+        "name": "Pokedex",
+        "text": "Este projeto é uma Pokedex que desenvolvi sozinho. A aplicação se refere a um objeto utilizado no anime 'Pokemon' usado como um catálogo de pokemons.",
+        "image": "/static/images/projects/pokedex.png",
+        "link": "https://github.com/FelipeRLH/Pokedex"
     },
     {
         "id": "5",
-        "name": "Joel Jota",
-        "text": "Sejam bem-vindos ao canal oficial do treinador de alta performance, escritor best seller e empresário, Joel Jota.",
-        "image": "/static/images/canais/joeljota.png"
+        "name": "Clone Site Iphone",
+        "text": "Este projeto é um clone da página da Apple sobre o iPhone 13 Contém uma interface de interação para selecionar a cor do iPhone desejado.",
+        "image": "/static/images/projects/siteiphoneclone.png",
+        "link": "https://github.com/FelipeRLH/Clone-iPhone13"
     },
     {
         "id": "6",
-        "name": "SuperLeituras",
-        "text": "O maior canal brasileiro de vídeos animados sobre as lições dos grandes pensadores da humanidade.",
-        "image": "/static/images/canais/superleituras.png"
+        "name": "Portfólio Genérico",
+        "text": "O projeto é um site simples de portfólio genérico para colocar informações pessoais, serviços que disponibiliza e para contato.",
+        "image": "/static/images/projects/portfoliotahmid.png",
+        "link": "https://github.com/FelipeRLH/Site-Portifolio-generico"
     },
     {
         "id": "7",
-        "name": "Paulo Muzy",
-        "text": "Você vê o que eu sou. O que eu sou é resultado daquilo que faço repetidamente. Excelência não é um modo de agir. É um hábito. ",
-        "image": "/static/images/canais/paulomuzy.png"
+        "name": "Site Imobiliária",
+        "text": "Esta é uma landing page feita para Design de interiores.",
+        "image": "/static/images/projects/siteimobiliaria.png",
+        "link": "https://github.com/FelipeRLH/Arquiteto-Landind-page"
     },
     {
         "id": "8",
-        "name": "Lucas Montano",
-        "text": "Canal de tecnologia e programação",
-        "image": "/static/images/canais/lucasmontano.png"
+        "name": "Site Simples 1",
+        "text": "Um simples projeto de site com NAV, responsivo a várias telas e com menu hamburguer.",
+        "image": "/static/images/projects/sitesimples1.png",
+        "link": "https://github.com/FelipeRLH/Site-simples-responsivo"
     },
     {
         "id": "9",
-        "name": "Fatos Desconhecidos",
-        "text": "A Fatos Desconhecidos começou no ano de 2010, fruto de várias curiosidades e dúvidas. E nenhum nome poderia ter atendido tão bem todas as expectativas quanto Fatos Desconhecidos.",
-        "image": "/static/images/canais/fatosdesconhecidos.png"
+        "name": "ToDo React",
+        "text": "Esse projeto é uma ToDo List feita com Reactjs. Nela você pode adicionar uma tarefa à lista, marcar como concluída ou remover.",
+        "image": "/static/images/projects/todoreact.png",
+        "link": "https://github.com/FelipeRLH/ToDo-React"
     },
     {
         "id": "10",
-        "name": "Eslen Delanogare",
-        "text": "Bem vindo ao canal oficial do Eslen Delanogare. Eslen é psicólogo, neurocientista e amante do esporte e aqui ele tenta mostrar como usar ferramentas baseadas em ciência para melhorar sua performance.",
-        "image": "/static/images/canais/eslen.png"
+        "name": "Site Dark login",
+        "text": "Este projeto é uma página simples de login com tema Dark.",
+        "image": "/static/images/projects/sitedarklogin.png",
+        "link": "https://github.com/FelipeRLH/Site-Dark-Login"
     },
     {
         "id": "11",
-        "name": "Ciência Todo Dia",
-        "text": "Um canal totalmente voltado para assuntos que podem ser abordados no cotidiano, mantendo seu cérebro sempre ativo!",
-        "image": "/static/images/canais/cienciatododia.png"
+        "name": "ToDo JavaScript",
+        "text": "O projeto é uma To Do list feita em JavaScript.",
+        "image": "/static/images/projects/todojavascript.png",
+        "link": "https://github.com/FelipeRLH/Lista-de-Afazeres"
     },
     {
         "id": "12",
-        "name": "Jovens de Negócios",
-        "text": "Fala galera! Bem vindo ao canal Jovens de Negócios! Somos um canal que busca promover a educação sobre negócios, economia, finanças, investimentos e tudo 'o que o ensino não te ensina'.",
-        "image": "/static/images/canais/brenoperrucho.png"
+        "name": "Calculador de Alimentos",
+        "text": "O projeto é uma aplicação para calcular a quantidade de suprimentos para um evento com base na quantidade de adultos, crianças e duração.",
+        "image": "/static/images/projects/calculadoralimentos.png",
+        "link": "https://github.com/FelipeRLH/Calculador-de-Alimentos"
     }
 ]
