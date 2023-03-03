@@ -6,7 +6,7 @@ function CarouselPodCasts() {
     const carousel = useRef(null);
 
     useEffect(() => {
-        fetch('http://localhost:3000/static/About/podcasts.json')
+        fetch('static/About/podcasts.json')
             .then((response) => response.json())
             .then(setData)
     }, [])
