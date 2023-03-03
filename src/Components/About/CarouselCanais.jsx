@@ -6,7 +6,7 @@ function CarouselCanais() {
     const carousel = useRef(null);
 
     useEffect(() => {
-        fetch('static/About/canais.json')
+        fetch('static/json/canais.json')
             .then((response) => response.json())
             .then(setData)
     }, [])

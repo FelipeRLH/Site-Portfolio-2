@@ -6,7 +6,7 @@ function CarouselLivros() {
     const carousel = useRef(null);
 
     useEffect(() => {
-        fetch('static/About/livros.json')
+        fetch('static/json/livros.json')
             .then((response) => response.json())
             .then(setData)
     }, [])
