@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'
 
 import logoportfolio from '../../Assets/Home/Img/logoportfolio.png'
-import curriculo from '../../Assets/Home/Curriculo.pdf'
+import curriculo from '../../Assets/Home/CurriculoFelipe.pdf'
 
 import '../Home/Navbar.css'
 

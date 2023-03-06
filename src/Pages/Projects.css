@@ -82,3 +82,40 @@
     color: #fff;
     text-decoration: none;
 }
+
+
+
+/* MEDIA QUERYS */
+/* CELULAR */
+@media only screen and (max-width: 500px) {
+
+    /* TÍTULO */
+    .title_projects p {
+        font-size: 13px;
+    }
+
+    /* CONTAINER PROJETOS */
+    .projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* PROJETOS */
+    .project {
+        width: 280px;
+    }
+
+    /* INFOS */
+    .projects .project .infos {
+        width: 280px;
+    }
+
+    .projects .project .infos .name {
+        font-size: 14px;
+    }
+
+    .projects .project:hover .infos {
+        top: -35px;
+    }
+}

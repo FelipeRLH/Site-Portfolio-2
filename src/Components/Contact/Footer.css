@@ -26,3 +26,16 @@
 .links_contact a:hover {
     color: #fff;
 }
+
+
+
+/* MEDIA QUERYS */
+/* CELULAR */
+@media only screen and (max-width: 500px) {
+
+    /* --------FOOTER */
+    .footer_contact {
+        font-size: 8px;
+        padding: 13px 15px;
+    }
+}

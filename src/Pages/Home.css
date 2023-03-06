@@ -1,23 +1,27 @@
 /* ----- GERAL */
-*{
+* {
     font-family: 'Inter', sans-serif;
 }
 
 .container_main {
-    display: flex; 
+    display: flex;
     height: 80vh;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 180px;
+    gap: 50px;
+}
+
+.img_container img {
+    width: 470px;
 }
 
 /* -----TEXTO */
-.text{
-    width: 450px;
+.text {
+    width: 28.125rem;
 }
 
-.text h2{
-    font-size: 17px;
+.text h2 {
+    font-size: 1.0625rem;
     color: #808080;
 }
 
@@ -26,25 +30,25 @@
     color: #fff;
 }
 
-.text h1{
-    font-size: 45px;
+.text h1 {
+    font-size: 2.8125rem;
     font-weight: bold;
     color: #FA7A32;
-    line-height: 50px;
+    line-height: 3.125rem;
 }
 
-.text p{
+.text p {
     width: 305px;
     margin-top: 15px;
     color: #fff;
     font-size: 15px;
 }
 
-.text p span{
+.text p span {
     color: #FA7A32;
 }
 
-.text button{
+.text button {
     margin-top: 19px;
     padding: 14px 38px;
     background-color: #FA7A32;
@@ -57,32 +61,138 @@
     cursor: pointer;
 }
 
-.text button:hover{
+.text button:hover {
     background: none;
     border: 2px solid #FA7A32;
 }
 
 /* FOOTER */
 
-.barra_footer{
+.barra_footer {
     position: absolute;
     bottom: 16px;
     left: 35px;
-    width: 94vw;
+    width: 95vw;
     height: 28px;
     background-color: rgb(255, 255, 255, 70%);
     transform: rotate(-1deg);
     font-size: 15px;
 }
 
-.barra_footer{
-display: flex;
-justify-content: space-around;
-padding: 0 130px;
-align-items: center;
-font-weight: bold;
+.barra_footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 130px;
+    align-items: center;
+    font-weight: bold;
 }
 
 .barra_footer .iconStar {
     color: #FA7A32;
+}
+
+
+
+
+
+/* MEDIA QUERYS */
+/* CELULAR */
+@media only screen and (max-width: 500px) {
+
+    /* ----- GERAL */
+    .container_main {
+        flex-direction: column;
+        margin-top: 9%;
+        justify-content: center;
+        align-items: center;
+        /* text-align: center; */
+    }
+
+    .img_container img {
+        display: none;
+    }
+
+    /* -----TEXTO */
+    .text {
+        width: 321px;
+        margin-left: 70px;
+    }
+
+    .text h2 {
+        font-size: 15px;
+    }
+
+    .text h2 span {
+        font-size: 39px;
+    }
+
+    .text h1 {
+        font-size: 39px;
+        line-height: 39px;
+    }
+
+    /* FOOTER */
+    .barra_footer {
+        left: 10px;
+        width: 95vw;
+        font-size: 10px;
+    }
+
+    .barra_footer {
+        padding: 0 7px;
+    }
+}
+
+
+
+
+
+
+/* Televisão */
+@media only screen and (min-width: 1600px) {
+
+    /* ----- GERAL */
+    .container_main {
+        gap: 150px;
+    }
+
+    .img_container img {
+        width: 43.75rem;
+    }
+
+    /* ------ TEXTO */
+    .text {
+        width: 580px;
+    }
+
+    .text h2 {
+        font-size: 20px;
+    }
+
+    .text h2 span {
+        font-size: 70px;
+    }
+
+    .text h1 {
+        font-size: 70px;
+        line-height: 65px;
+    }
+
+    .text p {
+        width: 405px;
+        font-size: 20px;
+    }
+
+    .text button {
+        padding: 18px 42px;
+        font-size: 19px;
+    }
+
+
+    /* FOOTER */
+    .barra_footer {
+        bottom: 23px;
+        height: 32px;
+        font-size: 19px;
+    }
 }

@@ -99,6 +99,7 @@ function About() {
           <li>Criativo</li>
           <li>Proativo</li>
           <li>Motivador</li>
+          <li>Aprendo rápido</li>
         </ul>
       </div>
 

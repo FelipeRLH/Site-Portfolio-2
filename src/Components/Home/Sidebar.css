@@ -16,7 +16,7 @@
     transition: .4s;
 }
 
-.sidebar{
+.sidebar {
     position: sticky;
     top: 76px;
 }
@@ -129,4 +129,27 @@
 .div_theme_1 {
     padding-left: 7px;
     padding-right: 5px;
+}
+
+
+
+/* MEDIA QUERYS */
+/* CELULAR */
+@media only screen and (max-width: 500px) {
+
+    /*  ---- GERAL */
+    .navigation {
+        margin-top: 15vh;
+    }
+}
+
+
+
+/* Televisão */
+@media only screen and (min-width: 1600px) {
+
+    /* ----- GERAL */
+    .navigation {
+        margin-top: 15vh;
+    }
 }

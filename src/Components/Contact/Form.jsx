@@ -45,7 +45,7 @@ function Form() {
                     <input
                         className='emailimput'
                         type="email"
-                        placeholder='Email'
+                        placeholder='Digite seu email'
                         onChange={(e) => setEmail(e.target.value)}
                         value={email}
                     />

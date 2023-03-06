@@ -17,8 +17,8 @@ function Project() {
                 {data.map((item) => {
                     const { id, name, text, image, link } = item;
                     return (
-                        <a href={link} className='link_projects'>
-                            <div className='project' key={id}>
+                        <a href={link} className='link_projects' key={id}>
+                            <div className='project' >
                                 <img src={image} alt={name} />
 
                                 <div className="infos">

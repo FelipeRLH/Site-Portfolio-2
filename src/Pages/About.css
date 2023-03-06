@@ -106,6 +106,10 @@
     list-style: none;
 }
 
+.softskills ul li:last-child {
+    visibility: hidden;
+}
+
 
 /* -------- INDICAÇÔES */
 /* GERAL */
@@ -208,4 +212,65 @@
 
 .buttons button:first-child img {
     transform: rotate(180deg);
+}
+
+
+
+
+
+
+/* MEDIA QUERYS */
+/* CELULAR */
+@media only screen and (max-width: 500px) {
+
+    /* ---- SOBRE MIM */
+    .intro_about {
+        padding: 80px 0;
+        text-align: center;
+    }
+
+    .intro_about div h1 {
+        font-size: 39px;
+    }
+
+    .intro_about p {
+        width: 281px;
+        font-size: 14px;
+    }
+
+    .intro_about img {
+        display: none;
+    }
+
+    /* ----- SKILLS */
+    /* LOGOS */
+    .logos_about_container {
+        display: grid;
+        grid-template: auto auto/ auto auto auto;
+    }
+
+    .logo_about img {
+        width: 50px;
+    }
+
+    .about_4 img {
+        width: 65px;
+    }
+
+    .about_5 img {
+        width: 72px;
+    }
+
+    /* ----- SOFTSKILLS */
+    .softskills ul {
+        display: grid;
+        grid-template: auto auto auto / auto auto;
+        font-size: 13px;
+        gap: 15px;
+        list-style: inside;
+    }
+
+    .softskills ul li:last-child {
+        visibility: visible;
+    }
 }

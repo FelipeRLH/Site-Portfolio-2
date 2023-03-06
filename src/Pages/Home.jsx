@@ -2,9 +2,10 @@ import React from 'react'
 import Navbar from '../Components/Home/Navbar'
 import Sidebar from '../Components/Home/Sidebar'
 
-import img_inicial from '../Assets/Home/Img/img_inicial.png'
 import { FaHandPaper, FaRegStar } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
+import img_inicial from '../Assets/Home/Img/img_inicial.png'
 import './Home.css'
 
 function Home() {
@@ -24,10 +25,14 @@ function Home() {
             realizando projetos pessoais/freelancer, em busca da
             minha primeira oportunidade profissional.
           </p>
-          <button>Enviar E-mail</button>
+          <Link to='/contact'>
+            <button>
+              Enviar E-mail
+            </button>
+          </Link>
         </div>
         <div className='img_container'>
-          <img src={img_inicial} alt="" width={'450px'} />
+          <img src={img_inicial} alt="" />
         </div>
       </div>
       <div className='barra_footer'>

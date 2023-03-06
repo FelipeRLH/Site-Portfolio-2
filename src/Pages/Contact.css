@@ -1,3 +1,4 @@
+/*  ---- TITLE */
 .title_contact {
     color: #fff;
     background-color: #252525;
@@ -53,7 +54,7 @@ textarea {
     color: #fff;
 }
 
-textarea{
+textarea {
     height: 175px;
 }
 
@@ -86,4 +87,35 @@ textarea{
     border-radius: 30px;
     margin-top: 4px;
     cursor: pointer;
+}
+
+
+
+/* MEDIA QUERYS */
+/* CELULAR */
+@media only screen and (max-width: 500px) {
+
+    /*  ---- TITLE */
+    .title_contact {
+        padding: 40px 80px;
+    }
+
+    /* ---------  AREA DE CONTATO */
+    .container_contact {
+        flex-direction: column;
+        padding: 0 100px;
+        margin-left: 20px;
+    }
+
+    /* NÚMERO E EMAIL */
+    .num_email div {
+        font-size: 15px;
+    }
+    .num_email {
+        margin-bottom: 40px;
+    }
+
+    .icon_contact {
+        font-size: 30px;
+    }
 }
