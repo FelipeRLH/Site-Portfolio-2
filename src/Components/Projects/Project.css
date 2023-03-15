@@ -1,0 +1,121 @@
+/* ------ VIDEO AREA */
+.Container_Video {
+    margin: 15px 0 0 180px;
+}
+
+/* VÍDEO */
+.Container_Video img {
+    width: 678px;
+    height: 330px;
+    margin-bottom: 5px;
+    box-shadow: 5px 5px 10px 4px rgba(0, 0, 0, 0.3),
+        -5px -5px 10px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* TITLE/DESC */
+.Container_Video h1 {
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.Container_Video p {
+    color: #fff;
+    background-color: #313131;
+    width: 630px;
+    border-radius: 10px;
+    font-size: 13px;
+    padding: 10px;
+}
+
+/* ----- TECS */
+.Container_Tecs {
+    margin: 10px 0 0 180px;
+}
+
+.Container_Tecs h2 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.Container_Tecs img {
+    margin-right: 10px;
+    width: 30px;
+}
+
+/* ----- DEP */
+.Container_Dep {
+    margin: 15px 0 0 180px;
+}
+
+.Container_Dep h2 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.Container_Dep img {
+    width: 80px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+/* ASIDE AREA */
+.aside_project {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    top: 20px;
+    right: 80px;
+    height: 620px;
+}
+
+.aside_project a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.card_nextproject div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+    padding: 15px;
+    width: 325px;
+    height: 120px;
+    border: 1px solid #fff;
+    border-radius: 9px;
+    margin-bottom: 22px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.card_nextproject div:hover {
+    box-shadow: 5px 5px 10px 4px rgba(0, 0, 0, 0.3),
+        -5px -5px 10px 4px rgba(0, 0, 0, 0.3);
+    transform: scale(1.01);
+}
+
+.card_nextproject div img {
+    width: 172px;
+}
+
+.aside_project .card_gitrepository {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    width: 280px;
+    height: 120px;
+    border-radius: 9px;
+    background-color: #404040;
+    cursor: pointer;
+}
+
+.card_gitrepository img {
+    width: 100px;
+    border-radius: 10px;
+}

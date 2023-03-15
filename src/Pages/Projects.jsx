@@ -1,7 +1,11 @@
+// REACT
 import React from 'react'
+
+// COMPONENTS
 import Sidebar from '../Components/Home/Sidebar'
 import Project from '../Components/Projects/Project'
 
+// CSS
 import './Projects.css'
 
 function Projects() {
