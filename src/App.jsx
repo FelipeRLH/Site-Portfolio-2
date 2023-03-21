@@ -9,13 +9,11 @@ import Contact from './Pages/Contact.jsx'
 import Guiadev from './Pages/Guiadev.jsx'
 
 // PROJECTS
-import DetailsProj from './Components/Projects/DetailsProject/DetailsProj.jsx';
-import { DetailsProvider  } from './Components/Projects/DetailsProject/DetailsContexto.jsx'
+import DetailsProj from './Components/Projects/DetailsProj.jsx';
 
 function App() {
   return (
     <div>
-      <DetailsProvider>
         <Router>
           <Routes>
             {/* SIDEBAR */}
@@ -27,7 +25,6 @@ function App() {
             <Route path='/guiadev' element={<Guiadev />} />
           </Routes>
         </Router>
-      </DetailsProvider>
     </div>
   );
 }

@@ -1,10 +1,9 @@
 // REACT
-import { Link } from 'react-router-dom'
-import { useState, useContext, useEffect } from 'react'
-import { DetailsContexto } from './DetailsContexto';
+import { Link, useParams } from 'react-router-dom'
+import { useState, useEffect } from 'react'
 
 // COMPONENTS
-import Sidebar from '../../Home/Sidebar';
+import Sidebar from '../Home/Sidebar';
 
 // IMAGES
 import github_logo from './github_logo.png'
@@ -12,20 +11,19 @@ import github_logo from './github_logo.png'
 
 function DetailsProj() {
   const [projectCurrent, setprojectCurrent] = useState({})
-  const [projectidentifier, setprojectidentifier] = useContext(DetailsContexto)
+  const { id } = useParams()
 
   useEffect(() => {
     async function fetchData() {
-      const response = await fetch('/static/json/detailsproject.json')
+      const response = await fetch(`/static/json/detailsproject.json`)
       const data = await response.json();
-      const objeto = data.find(obj => obj.id === projectidentifier)
+      const objeto = data.find(obj => obj.id === id)
       setprojectCurrent(objeto)
-      console.log(objeto.aside[0].id)
     }
     fetchData()
-  }, [])
+  }, [id])
 
-  const { imageVid, name, description, tecs, dep, aside, githublink } = projectCurrent;
+  const { imageVid, name, description, tecs, dep, aside } = projectCurrent;
   return (
     <section className='Container_Project'>
       <div className='sidebar'>
@@ -72,21 +70,21 @@ function DetailsProj() {
 
           <aside className='aside_project'>
             <div className='card_nextproject'>
-              {projectidentifier &&
-                <Link to='' >
+              {id &&
+                <Link to={`/projects/${aside[0].id}`} >
                   <div>
                     <h3>{aside[0].title}</h3>
                     <img src={aside[0].image} alt="" />
                   </div>
                 </Link>
               }
-              <Link to=''>
+              <Link to={`/projects/${aside[1].id}`}>
                 <div>
                   <h3>{aside[1].title}</h3>
                   <img src={aside[1].image} alt="" />
                 </div>
               </Link>
-              <Link to=''>
+              <Link to={`/projects/${aside[2].id}`}>
                 <div>
                   <h3>{aside[2].title}</h3>
                   <img src={aside[2].image} alt="" />
@@ -107,4 +105,4 @@ function DetailsProj() {
   )
 }
 
-export default DetailsProj
+export default DetailsProj;

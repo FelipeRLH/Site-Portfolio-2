@@ -17,17 +17,16 @@
         "aside": [
             {
                 "id": "GerenciadorProjects",
-                "link": "/projects/GerenciadorProjects",
                 "title": "Gerenciador de Projetos",
                 "image": "/static/images/projects/detailsProjects/imgVid/GerenciadorProjetos.png"
             },
             {
-                "link": "/QuizCopa",
+                "id": "QuizCopa",
                 "title": "Quiz Copa Do Mundo",
                 "image": "/static/images/projects/detailsProjects/imgVid/QuizCopa.png"
             },
             {
-                "link": "/Pokedex",
+                "id": "Pokedex",
                 "title": "Pokedex",
                 "image": "/static/images/projects/detailsProjects/imgVid/Pokedex.png"
             },
@@ -55,17 +54,17 @@
         ],
         "aside": [
             {
-                "link": "/SiteHome1",
+                "id": "SiteHome1",
                 "title": "Site Home 1",
                 "image": "/static/images/projects/detailsProjects/imgVid/SiteHome1.png"
             },
             {
-                "link": "/QuizCopa",
+                "id": "QuizCopa",
                 "title": "Quiz Copa Do Mundo",
                 "image": "/static/images/projects/detailsProjects/imgVid/QuizCopa.png"
             },
             {
-                "link": "/TelaLogin1",
+                "id": "TelaLogin1",
                 "title": "Pokedex",
                 "image": "/static/images/projects/detailsProjects/imgVid/Pokedex.png"
             },
@@ -88,17 +87,17 @@
         "dep": [],
         "aside": [
             {
-                "link": "/Filmes-TMDB",
+                "id": "Filmes-TMDB",
                 "title": "Gerenciador de Projetos",
                 "image": "/static/images/projects/detailsProjects/imgVid/GerenciadorProjetos.png"
             },
             {
-                "link": "/ToDoJS",
+                "id": "ToDoJS",
                 "title": "ToDo JavaScript",
                 "image": "/static/images/projects/detailsProjects/imgVid/ToDoJS.png"
             },
             {
-                "link": "/Pokedex",
+                "id": "Pokedex",
                 "title": "Pokedex",
                 "image": "/static/images/projects/detailsProjects/imgVid/Pokedex.png"
             },
@@ -120,17 +119,17 @@
         "dep": [],
         "aside": [
             {
-                "link": "/SiteImobiliaria",
+                "id": "SiteImobiliaria",
                 "title": "Site Imobiliária",
                 "image": "/static/images/projects/detailsProjects/imgVid/SiteImob.png"
             },
             {
-                "link": "/ToDoReact",
+                "id": "ToDoReact",
                 "title": "ToDo React",
                 "image": "/static/images/projects/detailsProjects/imgVid/ToDoReact.png"
             },
             {
-                "link": "/TelaLogin1",
+                "id": "TelaLogin1",
                 "title": "Tela de Login 1",
                 "image": "/static/images/projects/detailsProjects/imgVid/TelaLogin1.png"
             },
@@ -152,17 +151,17 @@
         "dep": [],
         "aside": [
             {
-                "link": "/SiteIphone",
+                "id": "SiteIphone",
                 "title": "Site Iphone",
                 "image": "/static/images/projects/detailsProjects/imgVid/SiteIphone.png"
             },
             {
-                "link": "/QuizCopa",
+                "id": "QuizCopa",
                 "title": "Quiz Copa Do Mundo",
                 "image": "/static/images/projects/detailsProjects/imgVid/QuizCopa.png"
             },
             {
-                "link": "/Filmes-TMDB",
+                "id": "Filmes-TMDB",
                 "title": "Filmes-TMDB",
                 "image": "/static/images/projects/detailsProjects/imgVid/FilmesTMDB.png"
             },
@@ -183,17 +182,17 @@
         "dep": [],
         "aside": [
             {
-                "link": "/SiteHome1",
+                "id": "SiteHome1",
                 "title": "Site Home 1",
                 "image": "/static/images/projects/detailsProjects/imgVid/SiteHome1.png"
             },
             {
-                "link": "/Filmes-TMDB",
+                "id": "Filmes-TMDB",
                 "title": "Filmes-TMDB",
                 "image": "/static/images/projects/detailsProjects/imgVid/FilmesTMDB.png"
             },
             {
-                "link": "/Pokedex",
+                "id": "Pokedex",
                 "title": "Pokedex",
                 "image": "/static/images/projects/detailsProjects/imgVid/Pokedex.png"
             },
@@ -214,17 +213,17 @@
         "dep": [],
         "aside": [
             {
-                "link": "/SiteHome1",
+                "id": "/iteHome1",
                 "title": "Site Home 1",
                 "image": "/static/images/projects/detailsProjects/imgVid/SiteHome1.png"
             },
             {
-                "link": "/QuizCopa",
+                "id": "QuizCopa",
                 "title": "Quiz Copa Do Mundo",
                 "image": "/static/images/projects/detailsProjects/imgVid/QuizCopa.png"
             },
             {
-                "link": "/ToDoReact",
+                "id": "ToDoReact",
                 "title": "ToDo React",
                 "image": "/static/images/projects/detailsProjects/imgVid/ToDoReact.png"
             },
@@ -246,17 +245,17 @@
         "dep": [],
         "aside": [
             {
-                "link": "/GerenciadorProjects",
+                "id": "GerenciadorProjects",
                 "title": "Gerenciador de Projetos",
                 "image": "/static/images/projects/detailsProjects/imgVid/GerenciadorProjetos.png"
             },
             {
-                "link": "/QuizCopa",
+                "id": "QuizCopa",
                 "title": "Quiz Copa Do Mundo",
                 "image": "/static/images/projects/detailsProjects/imgVid/QuizCopa.png"
             },
             {
-                "link": "/TelaLogin1",
+                "id": "TelaLogin1",
                 "title": "Tela de Login 1",
                 "image": "/static/images/projects/detailsProjects/imgVid/TelaLogin1.png"
             },
@@ -279,17 +278,17 @@
         "dep": [],
         "aside": [
             {
-                "link": "/GerenciadorProjects",
+                "id": "GerenciadorProjects",
                 "title": "Gerenciador de Projetos",
                 "image": "/static/images/projects/detailsProjects/imgVid/GerenciadorProjetos.png"
             },
             {
-                "link": "/QuizCopa",
+                "id": "QuizCopa",
                 "title": "Quiz Copa Do Mundo",
                 "image": "/static/images/projects/detailsProjects/imgVid/QuizCopa.png"
             },
             {
-                "link": "/Pokedex",
+                "id": "Pokedex",
                 "title": "Pokedex",
                 "image": "/static/images/projects/detailsProjects/imgVid/Pokedex.png"
             },
@@ -310,17 +309,17 @@
         "dep": [],
         "aside": [
             {
-                "link": "/GerenciadorProjects",
+                "id": "GerenciadorProjects",
                 "title": "Gerenciador de Projetos",
                 "image": "/static/images/projects/detailsProjects/imgVid/GerenciadorProjetos.png"
             },
             {
-                "link": "/SiteImobiliaria",
+                "id": "SiteImobiliaria",
                 "title": "Site Imobiliária",
                 "image": "/static/images/projects/detailsProjects/imgVid/SiteImob.png"
             },
             {
-                "link": "/ToDoReact",
+                "id": "ToDoReact",
                 "title": "ToDo React",
                 "image": "/static/images/projects/detailsProjects/imgVid/ToDoReact.png"
             },
@@ -342,17 +341,17 @@
         "dep": [],
         "aside": [
             {
-                "link": "/GerenciadorProjects",
+                "id": "GerenciadorProjects",
                 "title": "Gerenciador de Projetos",
                 "image": "/static/images/projects/detailsProjects/imgVid/GerenciadorProjetos.png"
             },
             {
-                "link": "/QuizCopa",
+                "id": "QuizCopa",
                 "title": "Quiz Copa Do Mundo",
                 "image": "/static/images/projects/detailsProjects/imgVid/QuizCopa.png"
             },
             {
-                "link": "/TelaLogin1",
+                "id": "TelaLogin1",
                 "title": "Tela de Login 1",
                 "image": "/static/images/projects/detailsProjects/imgVid/TelaLogin1.png"
             },
@@ -374,17 +373,17 @@
         "dep": [],
         "aside": [
             {
-                "link": "/ToDoReact",
+                "id": "ToDoReact",
                 "title": "ToDo React",
                 "image": "/static/images/projects/detailsProjects/imgVid/ToDoReact.png"
             },
             {
-                "link": "/QuizCopa",
+                "id": "QuizCopa",
                 "title": "Quiz Copa Do Mundo",
                 "image": "/static/images/projects/detailsProjects/imgVid/QuizCopa.png"
             },
             {
-                "link": "/SiteImobiliaria",
+                "id": "SiteImobiliaria",
                 "title": "Site Imobiliária",
                 "image": "/static/images/projects/detailsProjects/imgVid/SiteImob.png"
             },

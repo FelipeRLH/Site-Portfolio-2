@@ -1,15 +1,12 @@
-import { useEffect, useState, useContext } from 'react'
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
-import { DetailsContexto } from './DetailsProject/DetailsContexto';
 
 import './Project.css'
 
 
 function Project() {
     const [data, setData] = useState([])
-    const [projectIdentifier, setprojectIdentifier] = useContext(DetailsContexto)
 
-    
     // FETCH PARA BUSCAR DADOS JSON
     useEffect(() => {
         fetch('static/json/projet.json')
@@ -24,7 +21,7 @@ function Project() {
                 {data.map((item) => {
                     const { id, name, text, image } = item;
                     return (
-                        <Link to={id} className='link_projects' key={id} onClick={(e)=> setprojectIdentifier(id)}>
+                        <Link to={`/projects/${id}`} className='link_projects' key={id}>
                             <div className='project' >
                                 <img src={image} alt={name} />
 
