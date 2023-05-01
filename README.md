@@ -1,6 +1,10 @@
 # Sobre o projeto
 
-O projeto é um Site Portfólio MultiPage em React, uma de suas principais funcionalidades é a navegação entre páginas que configurei usando React-Router. Também conta com envio de email com formulário utilizando a biblioteca emailJS. É responsivo para todas as telas.
+Este projeto é um Site Portfólio MultiPage em React, que possui diversas funcionalidades interessantes. Uma de suas principais características é a navegação entre páginas, que foi configurada com a ajuda do React-Router, proporcionando uma experiência de navegação suave e intuitiva para o usuário.
+
+Outra funcionalidade interessante é a capacidade de enviar e-mails diretamente do site, graças à utilização da biblioteca emailJS. Isso permite que os usuários entrem em contato diretamente com o proprietário do site de forma fácil e conveniente.
+
+Além disso, o site é responsivo para todas as telas, o que significa que ele foi projetado para funcionar perfeitamente em dispositivos móveis, tablets e desktops. Isso garante que todos os usuários possam acessar e desfrutar do site, independentemente do dispositivo que estiverem usando.
 
 ## Layout web
 ![image](https://user-images.githubusercontent.com/108680857/230969893-b410f19b-c0ab-4c53-95c7-b7b7adf1328c.png)
